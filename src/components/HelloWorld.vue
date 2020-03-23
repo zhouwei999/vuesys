@@ -31,6 +31,7 @@ export default {
           // 执行某些操作      
       })    
        
+       this.$api.article.musicList('lyric',2)
   }
 }
 </script>

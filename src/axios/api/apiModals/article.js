@@ -7,9 +7,9 @@ import axios from '../../http'; // 导入http中创建的axios实例
 import qs from 'qs'; // 根据需求是否导入qs模块
 
 const article = {    
-    // 新闻列表    
-    articleList () {        
-        return axios.get(`${base.sq}/topics`);    
+    // 网易云接口    
+    musicList (type,id) {   
+        return axios.get(`/api/articles?type=more&category=home&shown_offset=1524276761019196&first_view=false`);    
     },    
     // 新闻详情,演示    
     articleDetail (id, params) {        

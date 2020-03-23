@@ -4,7 +4,7 @@ vue.use(Vuex)
 
 const store = new Vuex.Store({
     state: {
-        token:'1'
+        token:''
     },
     mutations: {
         loginSuccess(){
